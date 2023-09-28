@@ -37,6 +37,7 @@ class LinkedInScrapper:
             "specialties",
             "location",
         ]
+
         self.linked_in = list()
 
     def linkedIn_login(self):
