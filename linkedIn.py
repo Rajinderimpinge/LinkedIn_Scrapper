@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 
 class LinkedInScrapper:
+
     def __init__(self, *args, **kwargs):
         self.mail_id = kwargs.get("mail_id")
         self.mail_password = kwargs.get("mail_password")
